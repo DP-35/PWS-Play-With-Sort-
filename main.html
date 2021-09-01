@@ -1,0 +1,80 @@
+<html>
+
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play With Sort</title>
+    <link rel="stylesheet" href="D:/dp-pro2/css/main.css">
+</head>
+
+<body>
+    <div class="array-inputs">
+
+        <p style="margin-left: 50px;margin-bottom: -50px;margin-top: 50px;font-size: 25px;font-family: fantasy">Size of the array:
+       		<input id="a_size" type="range" min=20 max=150 step=1 value="80" style="margin-left: 10px;margin-bottom:30px" class="slider">
+        </p>
+
+        <p style="margin-left: 1080px;margin-top:-5px;font-size: 25px;font-family: fantasy">Speed of the algorithm:
+        	<input id="a_speed" type="range" min=1 max=5 step=1 value=4 style="margin-left: 12px;margin-top:8px;margin-right: 10px">
+        </p>
+
+        <button id="a_generate" style="margin-left: 580px;margin-bottom: -10px;font-size: 20px;font-family: fantasy" class="pulse">Generate Random Array</button>
+
+   	</div>
+
+	<div class="main-bar">
+
+		<nav>
+			<input type="checkbox" id="check">
+			<label for="check" class="checkbtn">
+				<span></span>
+				<span></span>
+				<span></span>
+			</label>
+
+			<div class="logo-header">
+				<h1 style="color: black;text-align: left;margin-top: 15px;font-size: 25px">P.W.S</h1>
+			</div>
+
+			<ul>
+				<div class="algos">
+					<button>Bubble</button>
+					<button>Insertion</button>
+					<button>Merge</button>
+					<button>Quick</button>
+					<button>Heap</button>
+				</div>
+			</ul>
+
+		</nav>
+
+	</div>
+
+	<section>
+
+		<div id="cont1">
+            <p style="font-size: 20px">Index of Array=0</p>
+        </div>
+
+        <div id="array_container">
+            
+        </div>
+
+        <div id="cont2">
+            <p style="font-size: 20px">Index of Array=N-1(Here N refers to size of array).</p>
+        </div>
+
+	</section>
+
+    <script src="D:/dp-pro2/js/dmain.js"></script> 
+    <script src="D:/dp-pro2/js/visual.js"></script>
+
+    <script src="D:/dp-pro2/js/bubble_sort.js"></script>
+    <script src="D:/dp-pro2/js/selection_sort.js"></script>
+    <script src="D:/dp-pro2/js/insertion_sort.js"></script>
+    <script src="D:/dp-pro2/js/merge_sort.js"></script>
+    <script src="D:/dp-pro2/js/quick_sort.js"></script>
+    <script src="D:/dp-pro2/js/heap_sort.js"></script>
+
+</body>
+</html>
